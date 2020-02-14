@@ -7,51 +7,53 @@
 </head>
   
 <body>
-  <h1>Akan Day</h1>
-  <script src="js/bootstrap.js"></script>
-  <script src="js/scripts.js"></script>
-  <h2>Description</h2>
-  <p>What is Akan Day , you ask?
-    Well you are in luck!, because it is all vividly explained below.
-    Akan Day is an effective application that is able to give you your unique Akan name based on the day of the week that you were born. 
-    You just have to key in your birthday date and your binary gender below. Happy 'Akan day!'</p>
-  <div class="jumbotron">  
-  <form>
-    <table>
-      <tr>
-        <td>
-          Name :
-          <input type="text" placeholder="Name..." id="name">
-        </td>
-      </tr>
-      <br>
-      <br>
-      <tr>
-        <td>
-          Date of Birth :
-          <input type="text" placeholder="Day..." id="day" min="1" max="2">
-          <input type="text" placeholder="Month..." id="month">
-          <input type="text" placeholder="Year..." id="year" min="1" max="4">
-        </td>
-      </tr>
-      <br>
-      <br>
-      <tr>
-        <td>
-          Gender :
-          <input type="radio" name="male">Male
-          <input type="radio" name="female">Female
-        </td>
-      </tr>
-      <br>
-      <br>
-      <tr>
-        <td>
-          <button onclick="getName()">Submit</button>
-        </td>
-      </tr>
-    </table>
-  </form>
-  </div>
+  <div class="container">
+    <h1>Akan Day</h1>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <h2>Description</h2>
+    <p>What is Akan Day , you ask?
+      Well you are in luck!, because it is all vividly explained below.
+      Akan Day is an effective application that is able to give you your unique Akan name based on the day of the week that you were born. 
+      You just have to key in your birthday date and your binary gender below. Happy 'Akan day!'</p>
+    <div class="jumbotron">  
+      <form>
+        <table>
+          <tr>
+            <td>
+              Name :
+              <input type="text" placeholder="Name..." id="name">
+            </td>
+          </tr>
+          <br>
+          <br>
+          <tr>
+            <td>
+              Date of Birth :
+              <input type="text" placeholder="Day..." id="day" min="1" max="2">
+              <input type="text" placeholder="Month..." id="month">
+              <input type="text" placeholder="Year..." id="year" min="1" max="4">
+            </td>
+          </tr>
+          <br>
+          <br>
+          <tr>
+            <td>
+              Gender :
+              <input type="radio" name="male">Male
+              <input type="radio" name="female">Female
+            </td>
+          </tr>
+          <br>
+          <br>
+          <tr>
+            <td>
+              <button onclick="getName()">Submit</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div>  
 </body>
 </html>
