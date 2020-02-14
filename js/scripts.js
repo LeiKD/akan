@@ -1,4 +1,4 @@
-function day() {
+function getName() {
   var name= document.getElementById="name";
   var day= document.getElementById="day";
   var month= document.getElementById="month";
@@ -16,5 +16,5 @@ function gender() {
   
 }
 function getName() {
-  
+
 }
