@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <title>Document</title>
 </head>
+  
+<body>
   <h1>Akan Day</h1>
+  <script src="js/bootstrap.js"></script>
   <script src="js/scripts.js"></script>
   <h2>Description</h2>
   <p>What is Akan Day , you ask?
     Well you are in luck!, because it is all vividly explained below.
-
     Akan Day is an effective application that is able to ive you your unique Akan name based on the day of the week that you were born. 
-    
     You just have to key in your birthday date and your binary gender below. Happy 'Akan day!'</p>
+    <p>Enter birthday date in the following format 'mm/dd/yy'
+    <input type="text" id="date" placeholder="Input date..."></p>
+    <p>Are you male or female? Choose one
+      <button onclick="male()">Male</button>
+      <button onclick="female()">Female</button>
+    </p>
+    <button onclick="day()">Submit</button>
 
-<body>
+
+    
+
   
 </body>
 </html>
