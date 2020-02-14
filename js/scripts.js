@@ -1,8 +1,11 @@
+var akanFemale=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
+var akanMale=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
+var daysOfTheWeek=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
 function getName() {
   var name= document.getElementById="name";
-  var day= document.getElementById="day";
-  var month= document.getElementById="month";
-  var year= document.getElementById="year";
+  var day= parseInt(document.getElementById="day").value;
+  var month= parseInt(document.getElementById="month").value;
+  var year= parseInt(document.getElementById="year").value;
   var yr= year.slice(2,4);
   var century= year.slice(0,2);
   var result= ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day ) % 7
@@ -16,7 +19,4 @@ function gender() {
   var male=document.getElementByName="male"
   var male=document.getElementsByName="female"
   
-}
-function getName() {
-
 }
