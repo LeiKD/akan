@@ -17,3 +17,6 @@ h2 {
 p{
   color: rgb(6, 25, 66);
 }
+.jumbotron{
+  background: linear-gradient(orange, red, pink, purple);
+}
