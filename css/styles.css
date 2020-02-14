@@ -19,4 +19,14 @@ p{
 }
 .jumbotron{
   background: linear-gradient(orange, red, pink, purple);
+  text-align: center;
+}
+.details{
+  text-align:center ;
+}
+.details{
+  display: inline-block;
+}
+h3{
+  text-decoration-line: underline;
 }

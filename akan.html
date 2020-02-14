@@ -9,51 +9,29 @@
 <body>
   <div class="container">
     <div class="jumbotron">
-      <h1>Akan Day</h1>
+      <h1>Akan Names</h1>
       <script src="js/bootstrap.js"></script>
       <script src="js/scripts.js"></script>
       <h2>Description</h2>
-      <p>What is Akan Day , you ask?
+      <p>What is Akan Names, you ask?
       Well you are in luck!, because it is all vividly explained below.
-      Akan Day is an effective application that is able to give you your unique Akan name based on the day of the week that you were born. 
+      Akan Names is an effective application that is able to give you your unique Akan name based on the day of the week that you were born. 
       You just have to key in your birthday date and your binary gender below. Happy 'Akan day!'</p> 
+      <h3>Find your Akan Name below!</h3>
       <form>
-        <table>
-          <tr>
-            <td>
-              Name :
-              <input type="text" placeholder="Name..." id="name">
-            </td>
-          </tr>
-          <br>
-          <br>
-          <tr>
-            <td>
-              Date of Birth :
-              <input type="text" placeholder="Day..." id="day" min="1" max="2">
-              <input type="text" placeholder="Month..." id="month">
-              <input type="text" placeholder="Year..." id="year" min="1" max="4">
-            </td>
-          </tr>
-          <br>
-          <br>
-          <tr>
-            <td>
-              Gender :
-              <input type="radio" name="male">Male
-              <input type="radio" name="female">Female
-            </td>
-          </tr>
-          <br>
-          <br>
-          <tr>
-            <td>
-              <button onclick="getName()">Submit</button>
-            </td>
-          </tr> 
-        </table>
+        <table>Date</table>
+        <input type="number" placeholder="Enter the day..." id="day"><br>
+        <table>Month</table>
+        <input type="number" placeholder="Enter the month..." id="month"><br>
+        <table>Year</table>
+        <input type="number" placeholder="Enter the year..." id="year"><br><br>
+        <table>Gender</table>
+        <input type="radio" name="gender" id="gender" value="male">Male<br>
+        <input type="radio" name="gender" id="gender" value="female">Female<br>
+        <button onclick="getName" type="submit">Submit</button>
       </form>
     </div>
-  </div>  
+  </div> 
+  <p id="outcome"></p> 
 </body>
 </html>
