@@ -1,5 +1,5 @@
 body {
-  background-image:url("https://bit.ly/31YsiRe");
+  background: linear-gradient(orange, red, pink, purple);
   background-size:cover;
   background-repeat: no-repeat;
   font-weight: bolder;
