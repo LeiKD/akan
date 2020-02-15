@@ -7,8 +7,7 @@ function getName() {
   var result= parseInt(( ( (cc/4) -2*cc-1) + (5*yy/4) + (26*(mm+1)/10) + dd ) % 7);
   var boy=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
   var girl=["Akosua", " Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-  var siku=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-  if (document.getElementById("gender").checked ) {
+  if (document.getElementById("gender").checked) {
     var gender='male';
   } else {
     var gender='female';
