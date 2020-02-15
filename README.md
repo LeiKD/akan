@@ -8,7 +8,7 @@ Akan Names is an effective application that uses both your birthday date and you
 ## Setup/Installation Requirements
 * Make sure your device is connected to the internet
 * Open any web browser preferrably Google Chrome or Mozilla Firefox
-* Input the following url (file:///home/lei/Documents/moringa-school-projects/portfolio/index.html) into the search box and click enter
+* Input the following url < https://leikd.github.io/akan/.> into the search box and click enter
 * It is important to note that the links to several projects are in blue. To access them, just click on them.
 
 ## Known Bugs
@@ -19,7 +19,7 @@ This project incorporates the use of HTML and CSS, and Javascript languages to c
 Incase of any complications or technicalities, please contact either the cell-phone number: +254703171010 or the email: dkomen180@gmail.com
 
 ## Github pages link
- leikd.github.io/akan
+  <https://leikd.github.io/akan/.>
 
 
 ## MIT license
