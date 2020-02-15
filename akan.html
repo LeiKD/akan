@@ -5,7 +5,6 @@
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <title>Document</title>
 </head>
-  
 <body>
   <div class="container">
     <div class="jumbotron">
@@ -19,19 +18,18 @@
       You just have to key in your birthday date and your binary gender below. Happy 'Akan day!'</p> 
       <h3>Find your Akan Name below!</h3>
       <form>
-        <table>Date</table>
-        <input type="number" placeholder="Enter the day..." id="day"><br>
+        <table>Day</table>
+        <input type="number" placeholder="Enter the day..." id="day" required><br>
         <table>Month</table>
-        <input type="number" placeholder="Enter the month..." id="month"><br>
+        <input type="number" placeholder="Enter the month..." id="month"  required><br>
         <table>Year</table>
-        <input type="number" placeholder="Enter the year..." id="year"><br><br>
+        <input type="number" placeholder="Enter the year..." id="year" required><br><br>
         <table>Gender</table>
-        <input type="radio" name="gender" id="gender" value="male">Male<br>
-        <input type="radio" name="gender" id="gender" value="female">Female<br>
-        <button onclick="getName" type="submit">Submit</button>
+        <input type="radio" name="gender" id="gender" value="male" checked>Male<br>
+        <input type="radio" name="gender" value="female">Female<br>
+        <button onclick="getName()" type="submit">Submit</button>
       </form>
     </div>
-  </div> 
-  <p id="outcome"></p> 
+  </div>     
 </body>
 </html>
