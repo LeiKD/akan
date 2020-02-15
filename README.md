@@ -1,5 +1,5 @@
 ## akan
-It is  program that gives you your Akan name
+This is a program that gives you your Akan name
 ## By Donald Komen
 
 ## Description
@@ -14,9 +14,9 @@ Akan Names is an effective application that uses both your birthday date and you
 ## Known Bugs
 This project is very clear and there is no complication whatsoever in navigating through it.
 ## Technologies Used
-This project incorporates the use of HTML and CSS, and Javascript languages to create elaborate display effects on the webpage whilst making it interactive.
+This project incorporates the use of **HTML** and **CSS**, and **Javascript** languages to create elaborate display effects on the webpage whilst making it interactive.
 ## Support and contact details
-Incase of any complications or technicalities, please contact either the cell-phone number: +254703171010 or the email: dkomen180@gmail.com
+Incase of any complications or technicalities, please contact either the cell-phone number: *+254703171010* or the email: *dkomen180@gmail.com*
 
 ## Github pages link
   <https://leikd.github.io/akan/.>

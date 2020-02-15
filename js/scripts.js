@@ -20,49 +20,49 @@ function getName() {
     alert("Invalid Month!");
   }
   else if (Math.ceil(result) == 1 && gender === 'male') {
-    alert("You were born on Monday,your akan name is " + boy[1]);
+    alert("You were born on Monday,your Akan name is " + boy[1]);
   }
   if (Math.ceil(result) == 2 && gender === 'male') {
-      alert("You were born on Tuesday ,your akan name is " + boy[2]);
+      alert("You were born on Tuesday ,your Akan name is " + boy[2]);
   }
   else if (Math.ceil(result) == 3 && gender === 'male') {
-      alert("You were born on Wednesday ,your akan name is " + boy[3]);
+      alert("You were born on Wednesday ,your Akan name is " + boy[3]);
   }
   else if (Math.ceil(result) == 4 && gender === 'male') {
-      alert("You were born on Thursday,your akan name is " + boy[4]);
+      alert("You were born on Thursday,your Akan name is " + boy[4]);
   }
   else if (Math.ceil(result) == 5 && gender === 'male') {
-      alert("You were born on Friday,your akan name is " + boy[5]);
+      alert("You were born on Friday,your Akan name is " + boy[5]);
   }
   else if (Math.ceil(result) == 6 && gender === 'male') {
-      alert("You were born on Saturday,your akan name is " + boy[6]);
+      alert("You were born on Saturday,your Akan name is " + boy[6]);
   }
   else if (Math.ceil(result) == 0 && gender === 'male') {
-      alert("You were born on Sunday,your akan name is " + boy[0]);
+      alert("You were born on Sunday,your Akan name is " + boy[0]);
   }
   else if (Math.ceil(result) == 1 && gender === 'female') { 
-      alert("You were born orn on monday ,your akan name is " + girl[1]);
+      alert("You were born orn on monday ,your Akan name is " + girl[1]);
   }
   else if (Math.ceil(result) == 2 && gender === 'female') {
-      alert("You were born on Tuesday,your akan name is " + girl[2]);
+      alert("You were born on Tuesday,your Akan name is " + girl[2]);
   }
   else if (Math.ceil(result) == 3 && gender === 'female') {
-      alert("You were born on Wednesday,your akan name is " + girl[3]);
+      alert("You were born on Wednesday,your Akan name is " + girl[3]);
   }
   else if (Math.ceil(result) == 4 && gender === 'female') {
-      alert("You were born on Thursday,your akan name is " + girl[4]);
+      alert("You were born on Thursday,your Akan name is " + girl[4]);
   }
   else if (Math.ceil(result) == 5 && gender === 'female') {
-      alert("You were born on Friday,your akan name is " + girl[5]);
+      alert("You were born on Friday,your Akan name is " + girl[5]);
   }
   else if (Math.ceil(result) == 6 && gender === 'female') {
-      alert("You were born on Saturday,your akan name is " + girl[6]);
+      alert("You were born on Saturday,your Akan name is " + girl[6]);
   }
   else if (Math.ceil(result) == 0 && gender === 'female') {
-      alert("You were born on Sunday,your akan name is " + girl[0]);
+      alert("You were born on Sunday,your Akan name is " + girl[0]);
   }
   else {
-    alert("Please enter your information ");
+    alert("Please enter the required information!");
   }
 }
    
