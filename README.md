@@ -11,6 +11,11 @@ This is a program that allocates to you a Ghanian Akan name
 * Input the following url < https://leikd.github.io/akan/.> into the search box and click 'Enter'.
 * You can now find out your Akan name.
 
+## BDD
+* Day - Day of the month born
+* Month - Month born in
+* Year - Year born in
+
 ## Known Bugs
 This project is very clear and there is no complication whatsoever in navigating through it.
 ## Technologies Used
